@@ -1,0 +1,103 @@
+
+h2 nav ul li{
+		display: inline;
+        padding: 10px;
+        background-color: black;
+		
+	}
+	a{
+		color: white;
+	}
+h1
+{
+	text-align:center;
+	color: white;
+	margin-top: unset;
+	
+}
+header img 
+{
+	padding: 10px;
+	text-align: left;
+}
+ h5
+{
+	text-align: center;
+	color: white;
+}	
+h3 
+{
+color: red;
+text-align: center;
+background-color: burlywood;
+}
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background-color: indigo;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.menu-bar
+{
+	background: green;
+	text-align: center;
+}
+.menu-bar ul li
+{
+display: all;
+color: #fff;
+list-style: none;
+}
+.menu-bar ul li
+{
+	width: 10px;
+	margin: 35px;
+	padding: 10px;
+}
+footer
+{
+	color: white;
+	background-color: green;
+	text-align: center;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.active,.menu-bar ul li:hover
+{
+	background: #2bab0d;
+	border-radius: 100px;
+}
+.sub-menu-1
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background: gray;
+	margin-top: 15px;
+	margin-left: -15px;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin: 10px;
+	vertical-align: all;
+ }
+h4 
+{
+	color: gold;
+}
+
